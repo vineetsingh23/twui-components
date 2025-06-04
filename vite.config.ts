@@ -10,7 +10,7 @@ export default defineConfig({
     react(),
     dts({ 
       insertTypesEntry: true, 
-      tsConfigFilePath: './tsconfig.json' 
+      tsconfigPath: './tsconfig.json' 
     })
   ],
   build: {
@@ -19,7 +19,7 @@ export default defineConfig({
       name: 'MyUILibrary', // PascalCase name for UMD global
       formats: ['es', 'umd'],
       // Output file names will be my-ui-library.es.js and my-ui-library.umd.js
-      fileName: (format) => `my-ui-library.${format}.js`, 
+      fileName: (format) => `unique-twreact-components.${format}.js`, 
     },
     rollupOptions: {
       // Ensure React and ReactDOM are treated as external dependencies

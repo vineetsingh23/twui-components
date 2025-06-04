@@ -4,14 +4,14 @@
   "version": "0.1.0",
   "description": "Example of a reusable UI component library using React, Vite, Tailwind CSS, and TypeScript. Includes Button, Card, and Breadcrumb components.",
   "type": "module",
-  "main": "./dist/my-ui-library.umd.js",
-  "module": "./dist/my-ui-library.es.js",
+  "main": "./dist/unique-twreact-components.umd.js",
+  "module": "./dist/unique-twreact-components.es.js",
   "types": "./dist/index.d.ts",
   "exports": {
     ".": {
-      "import": "./dist/my-ui-library.es.js",
-      "require": "./dist/my-ui-library.umd.js",
-      "types": "./dist/index.d.ts"
+      "types": "./dist/index.d.ts",
+      "import": "./dist/unique-twreact-components.es.js",
+      "require": "./dist/unique-twreact-components.umd.js"
     },
     "./style.css": "./dist/style.css"
   },
