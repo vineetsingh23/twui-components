@@ -1,0 +1,5 @@
+
+{
+  "name": "React UI Component Library Example",
+  "description": "Example of a reusable UI component library using React, Vite, Tailwind CSS, and TypeScript. Includes Button, Card, and Breadcrumb components."
+}
